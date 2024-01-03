@@ -26,7 +26,7 @@ For more general information about buildpacks on Heroku:
 It's suggested that you use the latest version of the release buildpack. You can set it using the `heroku-cli`.
 
 ```sh
-heroku buildpacks:set https://github.com/TheSecurityDev/heroku-buildpack-nodejs-pnpm
+heroku buildpacks:set https://github.com/MissFoxyJ/heroku-buildpack-nodejs-pnpm
 ```
 
 Your builds will always used the latest published release of the buildpack.
@@ -36,7 +36,7 @@ You can control the version of pnpm but setting a `PNPM_VERSION` environment var
 If you need to use the git url, you can use the `latest` tag to make sure you always have the latest release. **The `main` branch will always have the latest buildpack updates, but it does not correspond with a numbered release.**
 
 ```sh
-heroku buildpacks:set https://github.com/TheSecurityDev/heroku-buildpack-nodejs-pnpm#latest -a my-app
+heroku buildpacks:set https://github.com/MissFoxyJ/heroku-buildpack-nodejs-pnpm#latest -a my-app
 ```
 
 ## Locking to a buildpack version
